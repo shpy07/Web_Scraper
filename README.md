@@ -27,11 +27,15 @@ npm install puppeteer
 
 Create a requirements.txt file and add:
 
-```flask```
+```
+flask
+```
 
 Install Python dependencies:
 
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 ## Running the Application
 
@@ -48,7 +52,9 @@ This will generate a scraped_data.json file inside the scraper/data/ directory.
 
 Start the Flask server to serve the scraped data:
 
-```python server.py```
+```
+python server.py
+```
 
 The server will be running at: http://localhost:5000/
 
@@ -56,10 +62,14 @@ The server will be running at: http://localhost:5000/
 
 ### 5. Build the Docker Image
 
-```docker build -t webscraper-app .```
+```
+docker build -t webscraper-app .
+```
 
 ### 6. Run the Docker Container
 
-```docker run -p 5000:5000 --name flask-server webscraper-app```
+```
+docker run -p 5000:5000 --name flask-server webscraper-app
+```
 
 Now, access the scraped data at: http://localhost:5000/
