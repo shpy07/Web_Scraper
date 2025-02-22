@@ -13,10 +13,10 @@ Docker
 
 ## Setup & Installation
 
-### 1. Initialize Node.js project & Install Dependencies
+### 1. Clone the Repository
 ```
-mkdir WebScraperApp && cd WebScraperApp
-npm init -y
+git clone <repository_url>
+cd <repository_name>
 ```
 Install Puppeteer (headless browser automation tool) and other required dependencies:
 ```
